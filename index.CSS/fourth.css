@@ -1,0 +1,63 @@
+body{
+background-color:#f0f2f2;
+}
+div{
+    background-color: white;
+    padding:20px;
+    width: 500px;
+    margin: auto;
+  border-style: inherit;
+  font-size: small;
+}
+   
+.input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+p{
+    background-color: #def5fa;
+    padding: 15px;
+    text-align: center;
+}
+#symbol-text{
+    color: #0acf73;
+    text-align: center;
+}
+#A{
+padding: 7px;
+width: 200px;
+}
+#B{
+    padding: 7px;
+    width: 200px;
+}
+#C{
+   width: 485px;
+   padding: 7px;
+}
+#D{
+    width: 485px;
+    padding: 7px;
+}
+#E{
+    width: 485px;
+    padding: 7px;
+}
+#F{
+   width: 146px;
+   padding: 7px;
+}
+#G{
+    width: 146px;
+    padding: 7px;
+}
+#H{
+    width: 147px;
+    padding: 7px;
+}
+button{
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid;
+    
+}

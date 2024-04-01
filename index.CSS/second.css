@@ -1,0 +1,9 @@
+body,html{
+    /*background-image: url('https://img.freepik.com/free-vector/indian-flag-theme-republic-day-watercolor-texture-decorative-background_1055-16780.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1711411200&semt=ais');*/
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/005/157/645/small/indian-flag-theme-republic-day-watercolor-texture-patriotic-background-free-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    height: 100%;
+    width: 100%;
+}

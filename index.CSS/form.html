@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="main.py">
+       <input type="text" placeholder="Enter your name" value="Teja" name="username"/><br/><br/>
+       <input type="email" placeholder="Enter your email" name="email"/><br/><br/><!--or you can put them in div-->
+        <input type="password" name="pwd" placeholder="Enter your password"><br/><br/>
+        <input type="number" placeholder="Enter your Age"><br/><br/>
+        <label for="y">date of birth</label><input type="date" id="y"><br/><br/>
+        <div>
+            <input type="file" name="" id=""><br/>
+            <input type="color" name="" id=""><br/>
+            <input type="datetime-local" name="" id=""><br/><!--hospital,passport folder-->
+            <input type="image" src="path" alt=""><br/>
+            <input type="hidden" name="company" value="wipro"><!--hidden in url--><br/>
+            <input type="month" name="" id=""><!--college page--><br/>
+            <input type="week" name="" id=""><br/>
+            <input type="time" name="" id="">
+            <input type="tel" name="" id=""><!--old one--><br/>
+            <input type="range" name="" id=""><br/>
+            <input type="url" name="" id=""><br/>
+            <input type="search" name="" id=""><br/>
+            <input type="submit" value="submit"><!--button also same--><br/>
+            <input type="reset" value="reset">
+        </div><br/>
+          <!--check boxes are used for multiple selections-->
+          <p>skills:</p>
+          
+          <input type="checkbox" name="skills" value="Java"id="Java"><label for="Java">Java</label><br/>
+          <input type="checkbox" name="skills" value="HTML"id="HTML"><label for="HTML">HTML</label><br/>
+          <!--radio buttons are used for single selections-->
+          <h3>Who is the president of India?</h3>
+          <div>
+            <input type="radio" name="pres" value="Ramnath kovind" id="o1"><label for="o1">Ramnath kovind</label>
+          </div>
+          <div>
+            <input type="radio" name="pres" value="Drowpadi murmru" id="o2"><label for="o2">Drowpadi murmru</label>
+          </div>
+          <div>
+            <input type="radio" name="pres" value="Narendra modi" id="o3"><label for="o3">Narendra modi</label>
+          </div>
+       
+       <button>submit</button>
+    </form>
+</body>
+</html>
