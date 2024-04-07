@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://fremantleshippingnews.com.au/wp-content/uploads/2017/03/cropped-FSN-favicon-512.png" type="image/x-icon">
 </head>
 <body>
     <h1>Form</h1>
     <form action="main.py">
-       <input type="text" placeholder="Enter your name" value="Teja" name="username"/><br/><br/>
+      <fieldset>
+        <legend><b>Form tutorial</b></legend>
+        <input type="text" value="MR." disabled>
+       <input type="text" placeholder="Enter your name" name="username" required><br/><br/>
        <input type="email" placeholder="Enter your email" name="email"/><br/><br/><!--or you can put them in div-->
-        <input type="password" name="pwd" placeholder="Enter your password"><br/><br/>
-        <input type="number" placeholder="Enter your Age"><br/><br/>
-        <label for="y">date of birth</label><input type="date" id="y"><br/><br/>
+       <span class="re">*</span> <input type="password"name="pwd" placeholder="Enter your password" minlength="8" maxlength="10"><br/><br/>
+       <label for="a">Age</label><input type="number" placeholder="Enter your Age"min="22" max="45"id="a"><br/><br/>
+        <label for="y">date of birth</label><span class="re">*</span><input type="date" id="y"><br/><br/>
         <div>
             <input type="file" name="" id=""><br/>
-            <input type="color" name="" id=""><br/>
+            <input type="color" name="color" id="x"><br/>
             <input type="datetime-local" name="" id=""><br/><!--hospital,passport folder-->
             <input type="image" src="path" alt=""><br/>
             <input type="hidden" name="company" value="wipro"><!--hidden in url--><br/>
@@ -45,8 +50,66 @@
           <div>
             <input type="radio" name="pres" value="Narendra modi" id="o3"><label for="o3">Narendra modi</label>
           </div>
-       
-       <button>submit</button>
+          
+       <button>submit</button><br/><br/>
+       <div>
+        <label>Choose the course</label>
+       <select multiple-size="3">
+        <option value=" ">please Choose</option>
+    <optgroup label="common">
+      <option value="B.tech ">"B.tech"</option>
+      <option value="M.tech ">M.tech</option>
+    </optgroup>
+    <optgroup label="interests">
+      <option value=" ECE">ECE</option>
+      <option value="CSE ">CSE</option>
+    </optgroup>
+       </select>
+       </div><br/><br/>
+      <div>
+        <label for="t">enter feedback</label>
+        <textarea id="t" cols="5" rows="5"></textarea>
+      </div>
+      <div>
+        <p>please Choose sports</p>
+        <input type="text" list="sports">
+        <datalist id="sports">
+          <option value="cricket">Cricket</option>
+          <option value="baseball">baseball</option>
+          <option value="hockey">hockey</option>
+          <option value="tennis">tennis</option>
+        </datalist>
+      </div>
+      <div>
+        <figure>
+          <img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" height="150" width="175">
+          <figcaption>Nature</figcaption>
+        </figure>
+      </div>
+      <div>
+       <audio controls autoplay muted>
+         <source src="./airtel-new-9369.mp3">
+       </audio>
+      </div>
+      <div>
+        <video controls loop muted autoplay>
+          <source src="./13704-250154065_tiny.mp4"
+        </video>
+      </div><br/><br/>
+      <div>
+        <picture>
+          <source media="(min-width:800px)" srcset="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=">
+
+          <source media="(min-width:500px)" srcset="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_640.jpg">
+          
+        </picture>
+      </div>
     </form>
+     <div>
+      <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label><br/>
+      <input type="radio" name="gender" id="female" value="female"><label for="female">female</label>
+
+     </div>
+      </fieldset>
 </body>
 </html>
